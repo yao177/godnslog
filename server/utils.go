@@ -28,7 +28,7 @@ func genRandomToken() string {
 }
 
 func genShortId() string {
-	return genRandomString(12)
+	return genRandomString(4)
 }
 
 func genRandomString(n int) string {
